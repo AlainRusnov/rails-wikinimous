@@ -1,4 +1,5 @@
 <h3><%= link_to 'Wikinimous', articles_path %></h3>
+<button><%= link_to 'Edit Post', edit_article_path(@article) %></button>
 
 <h1><%= @article.title %></h1>
 <p><%= @article.content %></p>
